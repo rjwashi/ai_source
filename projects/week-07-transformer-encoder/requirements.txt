@@ -1,0 +1,3 @@
+# requirements for week 07 - Transformer Encoder
+numpy
+pytest

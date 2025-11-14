@@ -1,0 +1,3 @@
+# requirements for week 06 - Character-level RNN
+numpy
+pytest

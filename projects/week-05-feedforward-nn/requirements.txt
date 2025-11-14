@@ -1,0 +1,3 @@
+# requirements for week 05 - Feedforward Neural Network
+numpy
+pytest

@@ -1,0 +1,3 @@
+# requirements for week 01 - Matrix Library
+numpy
+pytest

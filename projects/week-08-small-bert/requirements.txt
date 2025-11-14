@@ -1,0 +1,3 @@
+# requirements for week 08 - Small BERT Pretraining
+numpy
+pytest

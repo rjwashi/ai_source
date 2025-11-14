@@ -1,0 +1,3 @@
+# requirements for week 02 - Probability Simulator
+numpy
+pytest

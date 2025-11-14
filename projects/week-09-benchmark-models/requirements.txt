@@ -1,0 +1,3 @@
+# requirements for week 09 - Benchmark Open-Source Models
+numpy
+pytest
