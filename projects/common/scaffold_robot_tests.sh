@@ -31,7 +31,7 @@
 #
 set -euo pipefail
 
-PROJECTS_ROOT="${1:-./ai_source/projects}"
+PROJECTS_ROOT="${1:-~/ai_source/projects}"
 # Note: OVERWRITE is kept for compatibility but folder removal is unconditional for robot folder
 OVERWRITE="${OVERWRITE:-0}"
 
