@@ -1,0 +1,3 @@
+Week 09 — Benchmark Open-Source Models
+
+Keywords orchestrate model inference, measure latency, and compute simple metrics using sacrebleu (via Python libs).

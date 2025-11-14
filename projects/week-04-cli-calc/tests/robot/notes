@@ -1,0 +1,3 @@
+Week 04 — CLI Calculator
+
+Use OperatingSystem.Run to invoke run.sh and validate stdout/stderr.
