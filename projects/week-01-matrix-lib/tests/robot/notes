@@ -1,5 +1,0 @@
-[200~Example Python library: projects/week-01-matrix-lib/tests/robot/resources/matrix_keywords.py
-
-    expose keywords: Create Random Matrix, Matrix Multiply And Verify Against Numpy, Create Nearly Singular Matrix, Invert Matrix And Validate Condition Number, Run Power Method And Verify Dominant Eigenpair, Measure Matrix Multiply Time.
-
-    Use numpy, time, psutil; raise AssertionError for test failures.
