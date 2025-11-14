@@ -1,3 +1,0 @@
-# requirements for week 10 - SFT and RLHF Pipelines
-numpy
-pytest
