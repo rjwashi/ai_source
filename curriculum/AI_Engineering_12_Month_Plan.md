@@ -1,6 +1,6 @@
 AI Engineering 12‑Month Study Plan
 
-This single Markdown file contains a complete one‑year AI Engineering curriculum, month-by-month. Each month includes:
+This file contains a complete one‑year AI Engineering curriculum, month-by-month. Each month includes:
 
     learning goals
 
@@ -10,7 +10,6 @@ This single Markdown file contains a complete one‑year AI Engineering curricul
 
     deliverables and an evaluation rubric
 
-Save this content as AI_Engineering_12_Month_Plan.md and use it for printing, sharing by email, or as the master syllabus in your ai_source repository.
 Month 01 — Math and Python Foundations
 Learning goals
 
