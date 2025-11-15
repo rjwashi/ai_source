@@ -1,4 +1,4 @@
-# AI Engineering One-Year Study Repository (ai_source)
+# AI Engineering Study Repository (ai_source)
 
 This repository organizes a 12‑month intensive AI engineering curriculum and contains:
 - curriculum/ month-level guides and resource lists
