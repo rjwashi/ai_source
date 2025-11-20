@@ -1,0 +1,37 @@
+name: Demo Report Automation
+
+on:
+  workflow_dispatch:   # allows you to trigger manually
+  push:
+    paths:
+      - 'README_TEMPLATE.md'
+      - 'demo_report.py'
+
+jobs:
+  generate-demo-report:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt || true
+
+      - name: Run demo report script
+        run: |
+          python3 demo_report.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add README_*.md
+          git commit -m "Automated demo report update"
+          git push
